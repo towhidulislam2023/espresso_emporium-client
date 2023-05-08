@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+*{
+    font-family: 'Rancho', cursive;
+}
+.set-header-bg{
+    background-image:url(./assets/more/15.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.set-bannar-bg{
+    height: 88vh;
+    background: url(./assets/more/3.png);
+    background-size: cover;
+    background-position: bottom;
+}
